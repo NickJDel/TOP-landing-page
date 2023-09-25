@@ -1,0 +1,164 @@
+* {
+    font-family: "roboto";
+}
+
+body {
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 40px;
+    align-content: center;
+    padding-top: 0px;
+    
+}
+
+header h2 {
+    margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
+}
+li{
+    display: inline;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 40px;
+    
+}
+
+li a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.secone {
+    background-color: #1F2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.innersec {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-left: 100px;
+    
+}
+.innersectwo {
+    flex: 1;
+    max-width: 50%;
+    max-height: auto;
+    padding-right: 100px;
+}
+
+.innersectwo img{
+    max-width: 80%;
+    max-height: auto;
+}
+
+.innersec h1{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.innersec p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.innersec button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    text-align: center;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+
+.sectwo h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.sectwo {
+    text-align: center;
+}
+
+.planets {
+    max-width: 45%;
+    max-height: auto;
+}
+.sectwoimages {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 60px;
+}
+
+.quotesec {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#quoteatt {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.callaction {
+    background-color: #3882f6;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: #f9faf8;
+    
+}
+
+.callbuttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#callbutton {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
